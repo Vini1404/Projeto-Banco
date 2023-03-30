@@ -1,0 +1,14 @@
+﻿@model IEnumerable<BibliotecaModel.Usuario>
+
+@{
+    ViewBag.Title = "Início";
+}
+
+<h2>Usuários Cadastros</h2>
+<ul>
+    @foreach (var usuario in Model)
+    {
+        <li>@usuario.Nome - @usuario.Cargo - @usuario.Nasc</li>
+    }
+</ul>
+

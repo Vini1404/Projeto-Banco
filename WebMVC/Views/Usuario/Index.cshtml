@@ -1,0 +1,51 @@
+﻿@model IEnumerable<BibliotecaModel.Usuario>
+
+@{
+    ViewBag.Title = "Lista";
+}
+
+<h2>Lista de Usuários</h2>
+
+<p>
+    @Html.ActionLink("Cadastrar Novo Usuário", "Cadastrar")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.UsuId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cargo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nasc)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.UsuId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cargo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nasc)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Editar", new { id=item.UsuId }) |
+            @Html.ActionLink("Detalhes", "Detalhes", new { id = item.UsuId }) |
+            @Html.ActionLink("Excluir", "Excluir", new { id = item.UsuId })
+        </td>
+    </tr>
+}
+
+</table>
