@@ -1,8 +1,7 @@
-## Projeto-Banco
+## Projeto Banco
 
-Projeto feito em 2 linguagens para 2 visualizações diferentes no mesmo banco de dados MySQL
+<b>Projeto feito em 2 linguagens para 2 visualizações diferentes no mesmo banco de dados MySQL.</b>
 
-##
 
 A primeira parte do projeto é um programa em C# com um menu quadrado e azul com as opções para o usuário escolher.
 
