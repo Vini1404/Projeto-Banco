@@ -20,11 +20,11 @@ insert into tbUsuario values
 (default, 'Francisca', 'Médica', '1990-05-22'),
 (default, 'Luan', 'Escritor', '1944-01-11');
 
-Insert into tbUsuario(Nome, Cargo, Nasc) values ('Teste', 'Cargão', '29/09/2022');
+/* Insert into tbUsuario(Nome, Cargo, Nasc) values ('Teste', 'Cargão', '29/09/2022');
 
 Insert into tbUsuario(Nome, Cargo, Nasc) values ('Franchesco', 'Camarada', str_to_date( '29/09/2022', '%d/%m/%Y' ));
 
-Insert into tbUsuario(Nome, Cargo, Nasc)values ('Sandra', 'Professor', str_to_date('03/11/2022 00:00:00', '%d/%m/%Y % H:% i:% s'));
+Insert into tbUsuario(Nome, Cargo, Nasc)values ('Sandra', 'Professor', str_to_date('03/11/2022 00:00:00', '%d/%m/%Y % H:% i:% s'));*/
 
-create user 'Maycon'@'localhost' identified with mysql_native_password by '12345678';
-grant all privileges on dbProjetoBanco.* to 'Maycon'@'localhost' with grant option;
+create user 'Marcus'@'localhost' identified with mysql_native_password by '12345678';
+grant all privileges on dbProjetoBanco.* to 'Marcus'@'localhost' with grant option;
