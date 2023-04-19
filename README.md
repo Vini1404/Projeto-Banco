@@ -1,4 +1,4 @@
-## Projeto Banco
+## Projeto Banco <img align="center" alt="Vini-Python" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"> 
 
 <b>Projeto feito em 2 linguagens para 2 visualizações diferentes no mesmo banco de dados MySQL.</b>
 
